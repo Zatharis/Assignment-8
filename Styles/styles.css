@@ -1,8 +1,20 @@
+/* Dylan Camlis
+0710417
+
+
+1. Center Header
+
+2. 3 column layout
+
+3. Responsive design
+*/
+
+/* 1. */
 h1 {
     text-align: center;
 }
 
-
+/* 2. */
 body {
     width: 960px;
     margin: 0 auto;
@@ -28,3 +40,33 @@ p:last-of-type {
     width: 40%;
 }
 
+/* 3. */
+@media screen and (max-width: 900px) {
+    figure,
+    p:first-of-type {
+        width: 45%;   
+    }
+
+    p:last-of-type {
+        width: 100%;  
+        clear: both;  
+}
+
+
+@media screen and (max-width: 600px) {
+    figure,
+    p:first-of-type,
+    p:last-of-type {
+        float: none;      
+        width: 100%;
+        text-align: center;
+    }
+
+    figure img {
+        width: 80%;       
+    }
+
+    body {
+        width: 100%;
+    }
+}
