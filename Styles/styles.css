@@ -51,6 +51,7 @@ p:last-of-type {
         width: 100%;  
         clear: both;  
 }
+}
 
 
 @media screen and (max-width: 600px) {
@@ -69,4 +70,15 @@ p:last-of-type {
     body {
         width: 100%;
     }
+}
+
+/* 4. */
+
+figure {
+
+    background-color: lightblue;
+}
+
+p:first-of-type{
+    background-color: blueviolet;
 }
