@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    width: 90%;
+
+}
+figure {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+figure img {
+    width: 100%;
+}
+
+p:first-of-type {
+    float: left;
+    width: 30%;
+}
+
+p:last-of-type {
+    float: left;
+    width: 40%;
+}
+
