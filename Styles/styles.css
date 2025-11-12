@@ -18,37 +18,38 @@ h1 {
 body {
     width: 960px;
     margin: 0 auto;
-    width: 90%;
+    width: 90vw;
 
 }
 figure {
     float: left;
-    width: 30%;
+    width: 30vw;
     text-align: center;
 }
 figure img {
-    width: 100%;
+    width: 25vw;
+    max-width: 100%;
 }
 
 p:first-of-type {
     float: left;
-    width: 30%;
+    width: 30vw;
 }
 
 p:last-of-type {
     float: left;
-    width: 40%;
+    width: 40vw;
 }
 
 /* 3. */
 @media screen and (max-width: 900px) {
     figure,
     p:first-of-type {
-        width: 45%;   
+        width: 45vw;   
     }
 
     p:last-of-type {
-        width: 100%;  
+        width: 100vw;  
         clear: both;  
 }
 }
@@ -59,16 +60,16 @@ p:last-of-type {
     p:first-of-type,
     p:last-of-type {
         float: none;      
-        width: 100%;
+        width: 100vw;
         text-align: center;
     }
 
     figure img {
-        width: 80%;       
+        width: 80vw;       
     }
 
     body {
-        width: 100%;
+        width: 100vw;
     }
 }
 
